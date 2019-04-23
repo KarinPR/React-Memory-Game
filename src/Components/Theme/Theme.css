@@ -1,0 +1,47 @@
+.choosethemeitem {
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid #eb088b;  
+  border-radius: 10px;
+  box-shadow: 5px 5px 0 0 rgba(0,0,0,.8);
+  padding: 8vh 1.5vw;
+  padding-left: 8vw;
+  background-color: #fff;
+  font-weight: 700;
+  justify-content: left;
+  /*text-align: left;*/
+  letter-spacing: 0.1rem;
+  word-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: #eb088b;
+  text-shadow: 1.5px 3.5px 5px #000;
+  font-size: 3rem;
+  -webkit-text-stroke: 2px rgba(0,0,0,.4);
+  text-shadow:
+        3px 3px 0 rgba(0,0,0,.7),
+        -1px -1px 0 rgba(0,0,0,.7),  
+        1px -1px 0 rgba(0,0,0,.7),
+        -1px 1px 0 rgba(0,0,0,.7),
+        1px 1px 0 rgba(0,0,0,.7);
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#petsdiv{
+  background-image: url(./img/pets_divacolor.jpg);
+}
+#bigsisdiv{
+  background-image: url(./img/bigsis_pranksta.jpg);
+}
+#lilsisdiv{
+  background-image: url(./img/lilsis_pranksta.jpg);
+}
+#petsdiv:hover, #bigsisdiv:hover, #lilsisdiv:hover
+{
+  background-color: #faadd9;
+  color: #fff;
+  text-decoration: none;
+}
+.none{
+  display: none;
+}

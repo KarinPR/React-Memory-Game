@@ -1,0 +1,30 @@
+.choosethememaindiv {
+  align-content: center;
+}
+.choosethemetitletext {
+  color:rgba(0,0,0,.6);
+  display: block;
+  margin-top: 10vh; 
+  padding-bottom: 5rem;
+  font-size: 8rem;
+  text-align: center;
+  font-weight: 700; 
+  letter-spacing: 0.3rem;
+  word-spacing: 0.6rem;
+  -webkit-text-stroke: 0.3rem #eb088b;
+  text-shadow:
+        3px 3px 0 #eb088b,
+        -1px -1px 0 #eb088b,  
+        1px -1px 0 #eb088b,
+        -1px 1px 0 #eb088b,
+        1px 1px 0 #eb088b;
+}
+.choosethemediv {
+  display:flex;
+  justify-content: space-around;
+  /*align-content: center;*/
+}
+
+.none{
+  display: none;
+}

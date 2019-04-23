@@ -1,0 +1,79 @@
+.winoverlay {
+  position: fixed;
+  /*font-family: 'Hammersmith One', sans-serif;*/
+  top:.1vh;
+  left: .1vw;
+  background: rgba(255, 255, 255, 0.7);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+}
+.winoverlay h1{
+  font-size: 2.5rem;
+}
+.winoverlay p{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.winoverlay .box {
+  display: grid;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: rgba(235, 8, 141, 0.8);
+  padding: 5vh 5vw;
+  word-wrap: break-word;
+  font-family: 'Amaranth', sans-serif;
+  color: rgba(255, 255, 255, .9);
+  -webkit-text-stroke: .5px #000;
+  text-shadow:
+        2px 2px 0 #1E0011,
+        -1px -1px 0 #1E0011,  
+        1px -1px 0 #1E0011,
+        -1px 1px 0 #1E0011,
+        2px 4px 0 #1E0011;
+  width: 35vw;
+  height: auto;
+  margin: auto auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  word-spacing: 0.5vw;
+  letter-spacing: .4vw;
+  z-index: 1000;
+}
+.winoverlay span {
+  display: inline;
+  font-weight: 900;
+  /*justify-content: center;*/
+  width: 4vw;
+}
+.winoverlay button {
+    text-decoration: none;
+    color: white;
+    padding: 1vh 3vw;
+    display: inline-block;
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.21);
+    border-bottom: 4px solid rgba(0,0,0,0.21);
+    border-right: 3px solid rgba(0,0,0,0.21);
+    border-radius: 4px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    word-spacing: .3vw;
+    letter-spacing: .1vw;
+    -webkit-text-stroke: .5px #000;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+}
+.winoverlay .red{ 
+    background: rgba(30, 0, 17,1);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(222, 0, 126,1)), to(rgba(221, 34, 140,1)));
+    background: -webkit-linear-gradient(rgba(222, 0, 126,1) 0%, rgba(221, 34, 140,1) 100%);
+    background: -moz-linear-gradient(rgba(222, 0, 126,1) 0%, rgba(221, 34, 140,1) 100%);
+    background: -o-linear-gradient(rgba(222, 0, 126,1) 0%, rgba(221, 34, 140,1) 100%);
+    background: linear-gradient(rgba(222, 0, 126,1) 0%, rgba(221, 34, 140,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa5a5a', endColorstr='#e85151', GradientType=0 );
+}
+.winoverlay button.red:hover {
+  background: #CD6CA3;
+}
